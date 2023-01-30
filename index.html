@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Meu site</title>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li> <input type="text" id="#pesquisar" placeholder="Procure algum jogo"></li>
+                <li> <a href="#Fifa">EA FIFA</a></li>
+                <li> <a href="#lol">League of Legends</a></li>
+                <li> <a href="#assassisn creed">Assassins Creed</a></li>
+
+            </ul>
+        </nav>
+        <h1>Central dos Jogos</h1>
+    </header>
+    <main>
+        <section>
+            <article class="sec">
+                <h2 id="fifa">Fifa</h2>
+                <p>FIFA, também conhecido como FIFA Football ou FIFA Soccer, foi lançado originalmente com o título FIFA
+                    International Soccer
+                    em 15 de julho de 1993. O título quando chegou para os fãs de futebol foi um dos mais notáveis, pois
+                    não tinha apenas o FIFA em seu nome, mas trazia junto a licença de vários times mundiais</p>
+                <img src="imagens/fifa.png" alt="10px" width="800px" height="315px">
+                <iframe width="800px" height="315" src="https://www.youtube.com/embed/uQLdqc9q6RU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+            <article class="sec">
+                <h2 id="lol">Lol</h2>
+                <p>Foi lançado em outubro de 2009 para Microsoft Windows e em março de 2013 para macOS. Inspirado em
+                    Defense
+                    of the Ancients (DotA), uma modificação de Warcraft III, os fundadores da Riot buscaram desenvolver
+                    um jogo autônomo do mesmo gênero..</p>
+                <img src="imagens/lol.png" alt="" width="800px" height="315px">
+                <iframe  width="800px" height="315" src="https://www.youtube.com/embed/p4QG59y6FGE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+            <article class="sec">
+                <h2 id="assassisn creed">Assassins Creed</h2>
+                <p>A premissa central da história envolve-se a partir da rivalidade entre duas sociedades secretas
+                    ancestrais: os Assassinos,
+                    que desejam a paz através do livre arbítrio, e os Templários, que têm o objetivo de dominar o mundo
+                    e impor a ordem na humanidade.</p>
+                <img src="imagens/assassins.png " alt="" width="800px" height="315px">
+                <iframe width="800px" height="315" src="https://www.youtube.com/embed/XwuNWh8vIdQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+           
+        </section>
+       
+    </main>
+    <footer>
+        <h2>Entre em contato</h2>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome"></label> Nome <input type="text" id=nome placeholder="Digite seu nome"
+                    required="true">
+                <label for="email"></label> e-mail <input type="email" id="email" placeholder="Digite seu e-mail"
+                    required="true">
+                <label for="senha"></label> Senha <input type="password" name="senha" id="senha"
+                    placeholder="Digite sua senha" required="true">
+                <fieldset>
+                    <legend>Dados comerciais</legend>
+                    <label for="tel"></label> telefone <input type="tel" id="tel" placeholder="(**)0 0000-0000 "
+                        required="true">
+                </fieldset>
+        </form><input type="submit" value="Enviar" id="submit">
+
+    </footer>
+</body>

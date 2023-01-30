@@ -1,0 +1,14 @@
+a:hover, a:focus {
+    background-color: red;
+}
+h1 {
+    border: 1px solid black;
+    padding: 8px;
+    width: 500px;
+    margin: 30px 30px 30px 30px;
+   /* background-color: bisque;*/
+}
+.sec{
+    margin: 100px 500px ;
+    width: 500px;
+}
